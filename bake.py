@@ -7,4 +7,5 @@ baker.compilerSources = [
 os.path.join(os.environ['HATCHERY_SOURCES'], 'lodepng', 'lodepng.cpp'),
 ]
 
+baker.sanitizeBakeInput()
 baker.compile()
